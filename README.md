@@ -33,19 +33,19 @@ Version control
 
   >Create Telegram bot:
   
-  0.6.1:
+    0.6.1:
   
       Bot can print first page of items (one item in one message)
     
-  0.6.2:
+    0.6.2:
   
       Bot can sort all pages by (...) and print 25 items by clicking each other
     
-   0.6.3:
+     0.6.3:
    
       Bot can filter items by (...) and print them
     
-   0.6.4:
+    0.6.4:
     
       Other bot features (in the future)
       
