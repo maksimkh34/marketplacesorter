@@ -1,10 +1,12 @@
 # BUFF163 (BUFF.MARKET in future) <-> steamcommunity prices sorter in TG BOT
 
+## CURRENT VERSION: 0.1 -> 0.1.X
+
 Version control
 
 0.1:
   
-  >Can parse every page on buff.163.com (name, img url; price, order price, items amount, orders amount, and the same for steam) and create CsItem-type objects with datas
+  >Can parse every page on buff.163.com (name, img url; price, order price, items amount, orders amount, and the same for steam) and create CsItem-type objects with datas - done
   
 0.2:
 
@@ -56,13 +58,13 @@ Version control
 
 ## TODO
 
-Current version (0.0.5):
-  > Fix steam amount
+Current version (0.1):
+  > CsItem to db writer
   > 
-  > Fix steam orders amount
+  > If item already in db, re-write prices and orders
   > 
-  > Fix in-script search
+  > If -1 value, do not write and break
   > 
-  > Add cookie and post-request URL detector
+  > import from db
   >
-  > Fix ...
+  > Or skip item if already in DB
