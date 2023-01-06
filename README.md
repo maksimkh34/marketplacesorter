@@ -62,4 +62,6 @@ Current version (0.0.5):
   > 
   > Fix in-script search
   > 
-  > Fix ???
+  > Add cookie and post-request URL detector
+  >
+  > Fix ...
