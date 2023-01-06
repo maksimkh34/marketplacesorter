@@ -5,6 +5,9 @@ from requests_html import HTMLSession
 from datas import xheaders
 from datas import headers_postauth
 from itemclass import CsItem
+from urlcroppers import *
+from proxylist import proxies
+
 
 TRIES_TO_PARSE = 25
 TIME_PER_ONE_TRY = 5
@@ -110,14 +113,14 @@ for i in getdict():
                 steamMinPrice,
                 cit['buy_max_price'],
                 steamMaxOrder,
-                cit['goods_info']['icon_url'],
+                imgcrop(cit['goods_info']['icon_url']),
                 cit['market_hash_name'],
                 cit['sell_num'],
                 cit['buy_num'],
                 steamSellsTotal,
                 steamOrdersTotal,
                 cit['id'],
-                cit['steam_market_url']
+                steamcrop(cit['steam_market_url'])
             )
             print(f"\nPARSED: {counter}\n")
             counter += 1
