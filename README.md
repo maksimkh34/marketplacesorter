@@ -13,6 +13,10 @@ Version control
       Added url-croppers
       prepared system to tor-mode
       created pre-xlsx system
+      
+      0.1.2:
+      
+      Finished xlsx-writer system
   
 0.2:
 
@@ -74,5 +78,7 @@ Current version (0.1):
   > import from db
   >
   > Or skip item if already in DB
+  >
+  > Proxy (dynamic-ip) request system
   
 
