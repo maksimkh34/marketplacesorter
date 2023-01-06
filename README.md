@@ -8,15 +8,23 @@ Version control
   
   >Can parse every page on buff.163.com (name, img url; price, order price, items amount, orders amount, and the same for steam) and create CsItem-type objects with datas - done
   
-      0.1.1:
+      0.1.1: -done
       
       Added url-croppers
       prepared system to tor-mode
       created pre-xlsx system
       
-      0.1.2:
+      0.1.2: -done
       
-      Finished xlsx-writer system
+      Finished xlsx-writer system, but with repeating!
+      
+      0.1.3:
+      
+      Fixed repeating
+      
+      0.1.4:
+      
+      Added proxy
   
 0.2:
 
