@@ -44,6 +44,7 @@ Version control
       
 0.7:
       
+      Auth in bot (By key XXXX-XXXX-XXXX-XXXX)
       Other system changes (in the future)
   
 # 1.0:
