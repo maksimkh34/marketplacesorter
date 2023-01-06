@@ -44,6 +44,7 @@ Version control
       
 0.7:
       
+      Auth in bot (By key XXXX-XXXX-XXXX-XXXX)
       Other system changes (in the future)
   
 # 1.0:
@@ -62,4 +63,6 @@ Current version (0.0.5):
   > 
   > Fix in-script search
   > 
-  > Fix ???
+  > Add cookie and post-request URL detector
+  >
+  > Fix ...
