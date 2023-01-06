@@ -7,6 +7,7 @@ Version control
 0.1:
   
   >Can parse every page on buff.163.com (name, img url; price, order price, items amount, orders amount, and the same for steam) and create CsItem-type objects with datas - done
+  
       Added url-croppers
       prepared system to tor-mode
   
