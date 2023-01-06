@@ -20,11 +20,11 @@ Version control
       
       0.1.3:
       
-      Fixed repeating
+      Added proxy
       
       0.1.4:
       
-      Added proxy
+      Fixed repeatings
   
 0.2:
 
@@ -81,12 +81,10 @@ Current version (0.1):
   > 
   > If item already in db, re-write prices and orders
   > 
-  > If -1 value, do not write and break
-  > 
   > import from db
   >
   > Or skip item if already in DB
   >
-  > Proxy (dynamic-ip) request system
+  > Proxy (dynamic-ip) request system (using tor)
   
 
