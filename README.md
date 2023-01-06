@@ -12,6 +12,7 @@ Version control
       
       Added url-croppers
       prepared system to tor-mode
+      created pre-xlsx system
   
 0.2:
 
